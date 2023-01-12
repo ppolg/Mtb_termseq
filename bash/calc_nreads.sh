@@ -9,4 +9,4 @@ for bam_path in "$bam_dir"/*.bam; do
     echo "Calculating number of reads for $bam_file"
     samtools view -c -F 260 "$bam_file"
 done
-echo "All done! :)"
+echo "All done!"
