@@ -13,17 +13,26 @@ are in the folder NUGA_Data
 ### Output folder
 is NUGA_Out. These folder names are carry-over from the previous iteration of the work largely focusing on 4nt overlaps in _Mtb_. The folders contain **all** input/output.
 
-### Bash folder
-Contains bash scipts used to automate RNAseq and term-seq data processing:
-
-#### Filename
-Description
-
 ### R folder
 Contains the R scripts used to analyse and plot data. All scripts are annotated in-code.
 
 #### Filename
-Description
+
+### Bash folder
+Contains bash scipts used to automate RNAseq and term-seq data processing:
+
+#### calc_depth.sh
+Uses samtools depth to calculate nucleotide-based coverage from bam files in a folder
+
+#### calc_htseq.sh
+Runs samtools index and htseq-count on all bam files in folder, for downstream DEseq analysis.
+
+#### calc_nreads.sh
+Runs samtools view to quickly chek number of reads for all bam files
+
+#### split_strands.sh
+Uses samtools view to split all bam files in folder into forward and reverse strands. 
+
 
 ## Acknowledgements
 
