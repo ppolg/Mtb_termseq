@@ -11,4 +11,4 @@ for bam_path in "$bam_dir"/*.bam; do
     samtools depth -o "$bam_name$extension" "$bam_file"
     echo "saved as $bam_name$extension"
 done
-echo "All done! :)"
+echo "All done!"
