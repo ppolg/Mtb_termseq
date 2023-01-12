@@ -14,4 +14,4 @@ for bam_path in "$bam_dir"/*.bam; do
     htseq-count -f bam -m union -t gene -i ID -a 0 "$bam_file" "$gff_file" > "$bam_name$outputextension"
     echo "saved as "$bam_name$outputextension""
 done
-echo "All done! :)"
+echo "All done!"
