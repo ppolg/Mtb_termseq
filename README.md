@@ -16,7 +16,33 @@ is NUGA_Out. These folder names are carry-over from the previous iteration of th
 ### R folder
 Contains the R scripts used to analyse and plot data. All scripts are annotated in-code.
 
-#### Filename
+#### Mtb_DEseq.R
+DEseq analysis with DEseq2 on RNAseq and term-seq data.
+
+#### Mtb_NUGA.R
+Analysis of overlapping ORFs/uORFs, especially of 4-nt potential TeRe regulatory overlaps. Downstream analysis.
+Figures 5B-F, Supplementary Figure X
+
+#### Mtb_PS_distance.R
+Analyse and plot distances between 5' monoP and term-seq peaks. What window to use to differentiate TS and PPS? How does this compare to random chance?
+Figure 1C
+
+#### Mtb_peaksfrequency.R
+Additinal analysis on the "profiles" of TTS, as discussed in text (related to the data in Figure 2)
+
+#### Mtb_perdistance.R
+Distribution of TTS Scores and RT scores throughout TTSs. Additional data for subgroups of these terminators.
+Figure 4A and 4D, Supplementary Figures XYZ
+
+#### Mtb_plotdepth.R
+Nucleotide occupancy heatmaps and aggregate plot (for legibility) around TTSs (called from term-seq data), based on RNAseq coverage. Shows changes in read-through between different timepoints after induction of Rho depletion. Also for various subsets of data.
+Figures 4C and 4F, Supplementary Figures XYZ
+
+#### Mtb_pvalues.R
+Statistical significance analysis. Heatmaps visualising different q-value and TTS-Score and/or RT Score cutoffs.
+Supplementary Figures XY
+
+
 
 ### Bash folder
 Contains bash scipts used to automate RNAseq and term-seq data processing:
@@ -36,13 +62,13 @@ Uses samtools view to split all bam files in folder into forward and reverse str
 
 ## Acknowledgements
 
-Alexandre D'Halluin, for the initial work performed on this project
+Alexandre D'Halluin, for the initial work performed on this project,
 
 Terry Kipkorir and Fabian Blombach for their great insights,
 
 Kristine Arnvig and Irilenia Nobeli for their supervision, input and guiding hand,
 
-Zaynah Patel for _something positive_, I'm sure?
+Zaynah Patel for _something positive_, surely? Anything at all?
 
 Caffeine, for being a legal stimulant
 
