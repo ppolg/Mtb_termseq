@@ -1,4 +1,4 @@
-# Mtb_termseq
+# TTS analysis of _Mycobacterium tuberculosis_
 Termseq additional analysis for  D'Halluin _et al._ (2023)
 
 (Manuscript currently on BioRXiv -  https://doi.org/10.1101/2022.06.01.494293)
@@ -42,7 +42,11 @@ Figures 4C and 4F, Supplementary Figures XYZ
 Statistical significance analysis. Heatmaps visualising different q-value and TTS-Score and/or RT Score cutoffs.
 Supplementary Figures XY
 
+#### Mtb_testFDR
+More statistical significance analysis. Was used to look at possible correlations between TTS and RT score.
 
+#### Mtb_uORF_TTS
+Statistical analysis checking coocurrence between CondTTS and leaders that might encode for uORF.
 
 ### Bash folder
 Contains bash scipts used to automate RNAseq and term-seq data processing:
