@@ -72,7 +72,7 @@ Terry Kipkorir and Fabian Blombach for their great insights,
 
 Kristine Arnvig and Irilenia Nobeli for their supervision, input and guiding hand,
 
-Zaynah Patel for _something positive_, surely? Anything at all?
+Zaynah Patel for, umm, emotional support(?)
 
 Caffeine, for being a legal stimulant
 
