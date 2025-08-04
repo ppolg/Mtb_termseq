@@ -1,7 +1,7 @@
 # TTS analysis of _Mycobacterium tuberculosis_
 Termseq additional analysis for  D'Halluin _et al._ (2023)
 
-(Manuscript currently on BioRXiv -  https://doi.org/10.1101/2022.06.01.494293)
+(Manuscript published in iScience -  https://doi.org/10.1016/j.isci.2023.106465)
 
 ## Repository information
 
