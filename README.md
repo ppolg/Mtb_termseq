@@ -5,7 +5,7 @@ Termseq additional analysis for  D'Halluin _et al._ (2023)
 
 ## Repository information
 
-This repository contains the code used for a multiple steps of data analysis and figure generation (written in R and bash) for the manuscript "Term-seq reveals an abundance of conditional, Rho-dependent termination in _Mycobacterium tuberculosis_."  Code for the analysis was fully written by Peter Polgar.
+This repository contains the code used for a multiple steps of data analysis and figure generation (written in R and bash) for the manuscript "Premature termination of transcription is shaped by Rho and translated uORFS in _Mycobacterium tuberculosis_."  Code for the analysis was fully written by Peter Polgar.
 
 ### Input files
 are in the folder NUGA_Data 
